@@ -1,0 +1,54 @@
+{
+    "system": {
+        "model_name": "1D mixed-field Ising model",
+        "L": 12,
+        "graph_type": "Lattice",
+        "n_dim": 1,
+        "pbc": true,
+        "hilbert_type": "Spin",
+        "spin": 0.5,
+        "N": 12,
+        "hx": 1.25,
+        "hz": 0.15,
+        "J": 1.0
+    },
+    "model": {
+        "type": "RBMSymm",
+        "alpha": 2,
+        "param_dtype": "complex",
+        "use_visible_bias": true,
+        "use_hidden_bias": true,
+        "n_parameters": 27
+    },
+    "sampler": {
+        "type": "MetropolisSampler",
+        "n_chains": 64
+    },
+    "variational_state": {
+        "type": "MCState",
+        "n_samples": 1024,
+        "n_discard_per_chain": 16
+    },
+    "optimizer": {
+        "type": "SGD",
+        "learning_rate": 0.00075
+    },
+    "sr": {
+        "type": "SR",
+        "diag_shift": 0.0005
+    },
+    "vmc": {
+        "n_iters": 3000,
+        "driver_type": "VMC_SR",
+        "runtime": 189.36915612220764,
+        "observables": [
+            "Energy",
+            "corr_x",
+            "corr_z",
+            "avg_mag_x",
+            "avg_mag_z",
+            "corr_x_avg",
+            "corr_z_avg"
+        ]
+    }
+}
