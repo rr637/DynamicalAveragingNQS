@@ -11,7 +11,7 @@ import jax
 import flax
 import netket as nk
 
-from DA_utils import build_system, build_model
+from utils import build_system, build_model
 
 print(f"NetKet version: {nk.__version__}")
 print(f"Devices: {jax.devices()}")

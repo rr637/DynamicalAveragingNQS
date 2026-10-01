@@ -10,7 +10,7 @@ import numpy as np
 import jax.numpy as jnp
 import netket as nk
 
-from DA_utils import build_system, build_model, params_at_iter, get_TE_iters, load_trajectory
+from utils import build_system, build_model, params_at_iter, get_TE_iters, load_trajectory
 
 
 # ============================================================
