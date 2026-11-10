@@ -28,4 +28,4 @@ Run in this order:
 
 ## Heisenberg picture
 
-`DynamicalAveraging_HeisenbergCorrection_XYZ.ipynb`: self-contained notebook (written for Google Colab) that runs VMC for the 1D XYZ model and applies approximate dynamical averaging in the Heisenberg picture by computing nested commutators of the Hamiltonian with the target observable.
+`DynamicalAveraging_HeisenbergCorrection_XYZ.ipynb`: self-contained notebook (written for Google Colab) that runs VMC for the 1D XYZ model and applies approximate dynamical averaging in the Heisenberg picture. As we show in the paper, the latter is done by computing nested commutators of the Hamiltonian with the target observable.
