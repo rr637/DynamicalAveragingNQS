@@ -1,6 +1,6 @@
 # DynamicalAveragingNQS
 
-Dynamical averaging of neural quantum states (NQS) in the Schrödinger and Heisenberg pictures.
+Code for performing dynamical averaging of neural quantum states (NQS) in the Schrödinger and Heisenberg pictures.
 
 ## Installation
 
