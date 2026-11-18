@@ -1,7 +1,7 @@
 import os
-os.environ["JAX_PLATFORM_NAME"] = "cpu"
-# os.environ["JAX_PLATFORM_NAME"] = "gpu"
-os.environ["NETKET_EXPERIMENTAL_SHARDING"] = "0"
+# os.environ["JAX_PLATFORM_NAME"] = "cpu"
+os.environ["JAX_PLATFORM_NAME"] = "gpu"
+os.environ["NETKET_SHARDING"] = "0"
 
 import sys
 import json
