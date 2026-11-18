@@ -24,8 +24,8 @@ Run in this order:
 
 `utils.py` contains the systems, models and loading functions used by all of the above; new systems and models are added there.
 
-`Results/MixedIsing_L12_hx1.25_hz0.15_RBMSymm_alpha2_0914_1641` is the 1D run used in the paper and is loaded by default in `NQS_DA_Ising.ipynb`.
+`Results/MixedIsing_L12_hx1.25_hz0.15_RBMSymm_alpha2_0914_1641` is the 1D run used in the paper and is loaded by default in `DynamicalAveraging_Schrodinger_Ising.ipynb`.
 
 ## Heisenberg picture
 
-`DynamicalAveraging_HeisenbergCorrection_XYZ.ipynb`: self-contained notebook (written for Google Colab) that runs VMC for the 1D XYZ model and applies approximate dynamical averaging in the Heisenberg picture. As we show in the paper, the latter is done by computing nested commutators of the Hamiltonian with the target observable.
+`DynamicalAveraging_HeisenbergCorrection_XYZ.ipynb`: self-contained notebook (runs in the same `da_nqs` environment) that runs VMC for the 1D XYZ model and applies approximate dynamical averaging in the Heisenberg picture. As we show in the paper, the latter is done by computing nested commutators of the Hamiltonian with the target observable.
