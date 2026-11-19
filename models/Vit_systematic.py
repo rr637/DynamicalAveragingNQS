@@ -1,3 +1,9 @@
+
+# Vision Transformer architecture adapted from ptvmc-systematic-study
+# (L. Gravina, F. Vicentini), https://github.com/NeuralQXLab/ptvmc-systematic-study,
+# packages/ptvmc/_src/nets/ViT/. See: Gravina, Savona, Vicentini,
+# "Neural Projected Quantum Dynamics: a systematic study", arXiv:2410.10720.
+
 from functools import partial
 from typing import Callable
 
